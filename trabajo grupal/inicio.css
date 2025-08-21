@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #0066cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+h1{
+  color: #fff;
+}
+span{
+  color: aquamarine;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+header nav ul li .btn {
+  background: #fff;
+  color: #0066cc;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+ul li .btn:hover{
+  background: #0066cc;
+  color: #fff;
+  transition: 3s;
+  border: 1px white solid;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h4 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 span {
+  color: #000;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.hero-img img {
+  width: 1000px;
+}
+
+.social a img {
+ display: flex;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Alinea verticalmente */
+  gap: 20px;                 /* Espacio entre las imágenes */
+  margin-top: 20px;
+}
+.social a img {
+  width: 40px;   /* Tamaño uniforme */
+  height: 40px;
+  object-fit: contain;  /* Evita que se deformen */
+}
+.faccebook .instagram .gmail{
+  width: 20px;
+}

@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #111;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: #0066cc;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+/* Testimonio */
+.testimonio-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.testimonio-form textarea,
+.testimonio-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.testimonio-form button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.testimonio-form button:hover {
+  background: #0056b3;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #fff;
+  color: #0066cc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:hover{
+  background: #fff;
+  color: #0066cc;
+}
+.section {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.section.dark {
+  background: #333;
+  color: #fff;
+}
+.section1{
+  padding: 60px 20px;
+  background: #0066cc;
+  color: white;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.service-card {
+  flex: 1 1 30%;
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background:#0066cc ;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Tamaño de imagen */
+img{
+  width: 100px;
+  border-radius: 50%;
+   width: 200px;
+  height: 200px;
+  object-fit: cover;  /* recorta la imagen */
+  object-position: center;
+}
+
+/* Esto es lo ultimo */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+.colaborar{
+  display: flex;
+  justify-content: center;
+}
+.galeria{
+  display: flex;
+  gap: 10px;
+}
+.fotosc{
+  border-radius: 50%;
+}
+.fotosc:hover{
+  opacity: .5;
+  cursor: pointer;
+  transition: 3s;
+}

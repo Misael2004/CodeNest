@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodeNet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">CodeNest</h1>
+      <nav>
+        <ul>
+          <li><a href="Inicio.html">Inicio</a></li>
+          <li><a href="#sobre">Sobre Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#colaboradores">Colaboradores</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inicio -->
+<section id="inicio" class="hero"> 
+  <div class="container"> 
+    <h2>Soluciones profesionales para tu negocio</h2> 
+    <p>Innovación, confianza y resultados garantizados.</p> 
+    <a href="#contacto" class="btn">Contáctanos</a> 
+  </div> 
+</section>
+
+
+
+  <!-- Sobre Nosotros -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una empresa dedicada a ofrecer servicios profesionales de alta calidad en el área de consultoría, tecnología y negocios
+        este es nuestra pagina official donde podras contactarnos para poder ordenar tu pagina web para tu tienda, o negocio. 
+      Hay un apartado donde podran ver parte de nuestros trabajo.</p>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="section dark">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="services">
+        <div class="service-card">
+          <h3>Consultoría Empresarial</h3>
+          <p>Te ayudamos a tomar decisiones estratégicas para crecer.</p>
+        </div>
+        <div class="service-card">
+          <h3>Desarrollo Web</h3>
+          <p>Creación de sitios y sistemas adaptados a tu empresa.</p>
+        </div>
+        <div class="service-card">
+          <h3>Diseño web</h3>
+          <p>Diseñamos tu pagina a tu gusto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+<!-- Testimonios -->
+<section id="testimonios" class="section">
+  <div class="container">
+    <h2>Testimonios</h2>
+
+    <!-- Lista de testimonios -->
+    <div id="lista-testimonios">
+      <blockquote></p>
+    </div>
+
+    <!-- Formulario para agregar testimonios -->
+    <form id="form-testimonio" class="testimonio-form">
+      <textarea id="nuevo-testimonio" placeholder="Escribe tu testimonio aquí..." required></textarea>
+      <input type="text" id="nombre-testimonio" placeholder="Tu nombre" required>
+      <button type="submit">Publicar</button>
+    </form>
+  </div>
+</section>
+<!-- Colaboradores -->
+ <section id="colaboradores" class="section1">
+    <div class="container">
+      <h2 class="colaborar">Colaboradores</h2>
+      <div class="galeria">
+    <div>
+      <h3>Desarrollador</h3>
+        <img src="Desarrollador.jpg" alt="" class="fotosc">
+      <p>Kendry Misael</p>
+    </div>
+      <div>
+        <h3>Diseñador</h3>
+        <img src="jamil.jpg" alt="" class="fotosc">
+      <p>Yuleisi .C</p>
+      </div>
+      <div>
+        <h3>Analista de software</h3>
+         <img src="yuleisi.jpg" alt="" class="fotosc">
+      <p>Jamil Castillo</p>
+      </div>
+       <div>
+        <h3>Probador QA</h3>
+        <img src="jorge.jpg" alt="" class="fotosc">
+      <p>Jorge Augusto</p>
+       </div>
+       <div>
+        <h3>Gerente</h3>
+        <img src="jhon.jpg" alt="" class="fotosc">
+      <p>Jhon Oliver</p>
+       </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contacto -->
+  <section id="contacto" class="section dark">
+  <div class="container">
+    <h2>Contáctanos</h2>
+    <form id="contact-form" class="contact-form">
+      <input type="text" name="user_name" placeholder="Tu nombre" required>
+      <input type="email" name="user_email" placeholder="Tu correo electrónico" required>
+      <textarea name="message" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; CodeNest 2025 </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
